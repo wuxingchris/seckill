@@ -7,6 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.List;
 
 
@@ -33,6 +34,9 @@ public class SeckillDaoTest {
 
     @Test
     public void testReduceNumber() throws Exception {
-
+        long seckillId = 1000L;
+        Date killTime = new Date();
+        int result = seckillDao.reduceNumber(seckillId, killTime);
+        System.out.println("result=" + result);
     }
 }
