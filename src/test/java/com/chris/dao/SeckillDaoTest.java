@@ -1,4 +1,5 @@
-import com.chris.dao.SeckillDao;
+package com.chris.dao;
+
 import com.chris.entity.Seckill;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,9 +9,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * Created by wuxing on 2016/8/20.
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:spring/spring-dao.xml"})
 public class SeckillDaoTest {

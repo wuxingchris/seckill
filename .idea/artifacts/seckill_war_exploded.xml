@@ -35,7 +35,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="E:\chris_workspace\seckill\target/MANIFEST.MF" />
+        <element id="file-copy" path="E:\github\seckill\target/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="seckill/web/Web" />
     </root>
