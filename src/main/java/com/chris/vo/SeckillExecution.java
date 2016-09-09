@@ -14,7 +14,7 @@ public class SeckillExecution {
     private String statusInfo;
     private SuccessKilled successKilled;
 
-    public SeckillExecution(long seckillId, SeckillStatus seckillStatus,  SuccessKilled successKilled) {
+    public SeckillExecution(long seckillId, SeckillStatus seckillStatus, SuccessKilled successKilled) {
         this.seckillId = seckillId;
         this.status = seckillStatus.getStatus();
         this.statusInfo = seckillStatus.getStatusInfo();

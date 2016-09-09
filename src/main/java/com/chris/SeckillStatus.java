@@ -15,20 +15,20 @@ public enum SeckillStatus {
         this.statusInfo = statusInfo;
     }
 
+    public static SeckillStatus statusOf(int index) {
+        for (SeckillStatus status : values()) {
+            if (status.getStatus() == index) {
+                return status;
+            }
+        }
+        return null;
+    }
+
     public int getStatus() {
         return status;
     }
 
     public String getStatusInfo() {
         return statusInfo;
-    }
-
-    public static SeckillStatus statusOf(int index){
-        for (SeckillStatus status : values()){
-            if (status.getStatus() == index){
-                return status;
-            }
-        }
-        return null;
     }
 }
