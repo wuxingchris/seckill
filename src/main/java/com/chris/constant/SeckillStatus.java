@@ -1,4 +1,4 @@
-package com.chris;
+package com.chris.constant;
 
 /**
  * Created by wuxing on 2016/9/7.

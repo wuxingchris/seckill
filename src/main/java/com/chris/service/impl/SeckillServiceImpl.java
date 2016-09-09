@@ -1,6 +1,6 @@
 package com.chris.service.impl;
 
-import com.chris.SeckillStatus;
+import com.chris.constant.SeckillStatus;
 import com.chris.dao.SeckillDao;
 import com.chris.dao.SuccessKilledDao;
 import com.chris.entity.Seckill;

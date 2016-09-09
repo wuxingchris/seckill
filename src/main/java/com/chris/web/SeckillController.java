@@ -1,10 +1,9 @@
 package com.chris.web;
 
-import com.chris.SeckillStatus;
+import com.chris.constant.SeckillStatus;
 import com.chris.entity.Seckill;
 import com.chris.exception.RepeatKillException;
 import com.chris.exception.SeckillCloseException;
-import com.chris.exception.SeckillException;
 import com.chris.service.SeckillService;
 import com.chris.vo.Exposer;
 import com.chris.vo.SeckillExecution;

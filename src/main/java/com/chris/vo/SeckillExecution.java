@@ -1,6 +1,6 @@
 package com.chris.vo;
 
-import com.chris.SeckillStatus;
+import com.chris.constant.SeckillStatus;
 import com.chris.entity.SuccessKilled;
 
 /**
